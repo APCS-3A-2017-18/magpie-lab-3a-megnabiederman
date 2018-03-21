@@ -96,6 +96,14 @@ public class Magpie2
   {
    response = "You don't say.";
   }
+  else if (whichResponse == 4)
+  {
+   response = "How so?";
+  }
+  else if (whichResponse == 5)
+  {
+   response = "Sure, and...";
+  }
 
   return response;
  }
